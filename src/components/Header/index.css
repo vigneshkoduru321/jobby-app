@@ -1,0 +1,16 @@
+.nav-con {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+.logo {
+  height: 30px;
+}
+button {
+  background-color: blueviolet;
+  height: 30px;
+  width: 50px;
+  border-width: 0px;
+}

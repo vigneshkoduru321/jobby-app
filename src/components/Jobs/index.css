@@ -1,0 +1,73 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: black;
+}
+.filter {
+  width: 450px;
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.results-con {
+  width: 850px;
+  background-color: black;
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.con {
+  background-color: white;
+}
+.profile-back {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  color: black;
+}
+.hr {
+  background-color: white;
+  height: 2px;
+  width: 90%;
+  border-style: solid;
+}
+.type-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 300px;
+}
+.salary-range {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.search-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.button-search {
+  border-width: 0px;
+  background-color: transparent;
+}
+.show-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}

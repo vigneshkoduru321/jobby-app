@@ -1,0 +1,16 @@
+.home-con {
+  background-color: black;
+  color: white;
+}
+.home-background {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  height: 100vh;
+  background-size: cover;
+  padding-top: 50px;
+}
+.button-find {
+  background-color: blueviolet;
+  height: 30px;
+  width: 80px;
+  border-width: 0px;
+}
